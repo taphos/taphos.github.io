@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Test Automation is Game Development"
-date:   2016-11-09 23:48:16
-categories: jekyll update
+title:  "Test Automation in Game Development"
+date:   2016-11-09
 ---
 
 Unfortunately test automation topic is not popular among game developers. Maybe it is due to the nature of project based development cycle. Most game developers are not used to support their own code in the long run. After game is released it receives maybe a couple of bugfix patches at most, so developer don't have to deal with mistakes and bad decisions made, new project will be started mostly from scratch. Though [some](http://yetanothergameprogrammingblog.blogspot.com.ee/2010/06/aaa-automated-testing.html) top game [developers](http://blog.agilegamedevelopment.com/) rise the problem, they mostly stay unheard. Gamedev is not unique in this sense, same situation can be seen in other industries which don't provide a persistently evolving service or product.
@@ -18,7 +17,6 @@ Unit testing is a good start but certainly not enough. Unity integration tests d
 ## Recording vs Coding
 
 While recording a test sequence might sound easy and effective, my experience shows that recorded tests don't live longer then one update release. They don't survive refactoring and should be re-recorded again and again, which destroys the point of automation.
-
 
 ##  Which parts should be automated?
 
@@ -38,3 +36,13 @@ Unit tests are doing the same, but instead of using user interface they use logi
 ![diagram3](/images/diagram3.png){:width="400px" .center}
 
 This layer isolation simplifies the test creation and execution. It would be much harder to setup and maintain system level test automation as it would require separate deployment of client, server, databases etc. We would get alot of false fails due to sudden network connection failures or deployment synchronization.
+
+## Mocks
+
+## Running (jenkins, ktulhu)
+
+## Who should automate?
+
+## assetstore github
+
+## conclusion
