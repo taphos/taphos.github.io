@@ -24,6 +24,7 @@ url: "http://taphos.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@taphos'
+facebook_appid: '1619144488394835'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
