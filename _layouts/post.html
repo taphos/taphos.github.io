@@ -109,10 +109,10 @@
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
               js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1619144488394835";
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId={{site.facebook_appid}}";
               fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));</script>
-          <div class="fb-comments" data-href="{{site.url}}{{page.url}}?aa=aa" data-width="800" data-numposts="100" data-order-by="social"></div>
+          <div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-width="800" data-numposts="100" data-order-by="social"></div>
           <!-- fb comments end -->
       </article>
     </main>
