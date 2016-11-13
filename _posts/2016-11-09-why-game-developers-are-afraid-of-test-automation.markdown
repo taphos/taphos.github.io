@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Test Automation in Game Development"
+title:  "Why Game Developers are afraid of Test Automation?"
 date:   2016-11-09
-image: /assets/article_images/2016-11-09-test-automation-in-game-development/night-track.JPG
-image2: /assets/article_images/2016-11-09-test-automation-in-game-development/night-track-mobile.JPG
+image: /assets/article_images/2016-11/night-track.JPG
+image2: /assets/article_images/2016-11/night-track-mobile.JPG
 ---
 
 Unfortunately test automation topic is not popular among game developers. Maybe it is due to the nature of project based development cycle. Most game developers are not used to support their own code in the long run. After game is released it receives maybe a couple of bugfix patches at most, so developer don't have to deal with mistakes and bad decisions made, new project will be started mostly from scratch. Though [some](http://yetanothergameprogrammingblog.blogspot.com.ee/2010/06/aaa-automated-testing.html) top game [developers](http://blog.agilegamedevelopment.com/) rise the problem, they mostly stay unheard. Gamedev is not unique in this sense, same situation can be seen in other industries which don't provide a persistently evolving service or product.
@@ -27,15 +27,15 @@ While recording a test sequence might sound easy and effective, my experience sh
 Below is a simplified diagram of the game architecture. Player Input and Output is done using game UI and scene objects (avatars, NPCs etc). Information is passed to controllers which process the data, probably give some feedback and use logical components to process game logic, calculate scores, give achievements and so on. Some parts of the logic may be processed on the server side.
 
 
-![diagram1](/assets/article_images/2016-11-09-test-automation-in-game-development/diagram1.png){:width="300px" .center}
+![diagram1](/assets/article_images/2016-11/diagram1.png){:width="300px" .center}
 
 UI tests isolate the layer of user interface and controller by replacing logical components with [mocks](https://en.wikipedia.org/wiki/Mock_object).
 
-![diagram2](/assets/article_images/2016-11-09-test-automation-in-game-development/diagram2.png){:width="500px" .center}
+![diagram2](/assets/article_images/2016-11/diagram2.png){:width="500px" .center}
 
 Unit tests are doing the same, but instead of using user interface they use logical components program interface. This should be done both frond end and server components.
 
-![diagram3](/assets/article_images/2016-11-09-test-automation-in-game-development/diagram3.png){:width="400px" .center}
+![diagram3](/assets/article_images/2016-11/diagram3.png){:width="400px" .center}
 
 This layer isolation simplifies the test creation and execution. It would be much harder to setup and maintain system level test automation as it would require separate deployment of client, server, databases etc. We would get alot of false fails due to sudden network connection failures or deployment synchronization.
 
