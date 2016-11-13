@@ -26,9 +26,6 @@ baseurl: ""
 twitter_handle: '@taphos'
 facebook_appid: '1619144488394835'
 
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
-
 # social icons and sharing options
 social:
   - icon:	twitter
