@@ -2,8 +2,7 @@
 layout: post
 title:  "Why Game Developers are afraid of Test Automation?"
 date:   2016-11-09
-image: /assets/article_images/2016-11/night-track.JPG
-image2: /assets/article_images/2016-11/night-track-mobile.JPG
+image: /assets/article_images/2016-11/gameboy-test.jpg
 ---
 
 Unfortunately test automation topic is not popular among game developers. Maybe it is due to the nature of project based development cycle. Most game developers are not used to support their own code in the long run. After game is released it receives maybe a couple of bugfix patches at most, so developer don't have to deal with mistakes and bad decisions made, new project will be started mostly from scratch. Though [some](http://yetanothergameprogrammingblog.blogspot.com.ee/2010/06/aaa-automated-testing.html) top game [developers](http://blog.agilegamedevelopment.com/) rise the problem, they mostly stay unheard. Gamedev is not unique in this sense, same situation can be seen in other industries which don't provide a persistently evolving service or product.

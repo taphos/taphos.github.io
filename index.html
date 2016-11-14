@@ -2,16 +2,19 @@
 layout: default
 ---
 
-<div class="teaserimage">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
+<div class="article-image">
+    <div class="post-image-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
         Teaser Image
+    </div>
+    <div class="post-meta">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <div style="text-align:center">
+            <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+        </div>
     </div>
 </div>
 
 <header class="blog-header">
-    {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    {% endif %}
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
     <div class="custom-links">
@@ -29,6 +32,7 @@ layout: default
 
 
 <main class="content" role="main">
+    <a name="topofpage"></a>
 
     {% if site.tags.featured %}
     <h5 class="index-headline featured"><span>Featured</span></h5>

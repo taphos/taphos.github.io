@@ -75,22 +75,6 @@ body
   @include box-sizing(border-box)
   @include respond-to(800)
     padding: 0 $rs
-  .blog-logo
-    width: $rs*7.5
-    height: $rs*7.5
-    position: absolute
-    top: -$rs*3.75
-    right: 50%
-    margin-right: -$rs*3.75
-    background-size: cover
-    border-radius: 50%
-    z-index: 99
-    text-indent: -9999px
-    border: 3px solid #fff
-    background-color: #fff
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
-    box-shadow: 0 1px 1px rgba(0,0,0,0.3)
   .blog-title
     margin: 0
     padding: $rs*5.25 $rs $rs/2
@@ -132,13 +116,13 @@ body
       border-bottom: 0px
     .post-title
       letter-spacing: -0.02em
-      font-style: normal
+      font-weight: 300
       display: block
       font-size: 28px
-      line-height: 1.1
+      line-height: 1
       margin: 0 0
       a
-        text-decoration: none
+        text-decoration: underline
         color: #333332
         &:hover
           text-decoration: none
@@ -218,7 +202,7 @@ body
     text-decoration: none
     &:hover
       color: #333
-.post
+.post, .page-content
   .article-image
     position: absolute
     background-color: #000
@@ -227,32 +211,17 @@ body
     right: 0
     bottom: 0
     overflow: hidden
-    @media(min-width: 700px)
-      .post-image-image
-        background-size: cover
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        text-indent: -9999px
-        padding-top: 33%
-        z-index: 1
-      .post-image-image2
-        display: none
-    @media(max-width: 700px)
-      .post-image-image
-        display: none
-      .post-image-image2
-        background-size: cover
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        text-indent: -9999px
-        padding-top: 33%
-        z-index: 1
+    .post-image-image
+      background-size: cover
+      background-position: center
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      text-indent: -9999px
+      padding-top: 33%
+      z-index: 1
     .post-meta
       position: absolute
       bottom: $rs*5
@@ -267,7 +236,7 @@ body
     .post-title
       font-style: normal
       letter-spacing: -0.04em
-      font-size: 40px
+      font-size: 45px
       line-height: 1.1
       color: #fff
       margin-bottom: 16px
@@ -312,7 +281,7 @@ body
     .post-title
       font-style: normal
       letter-spacing: -0.04em
-      font-size: 40px
+      font-size: 45px
       line-height: 1.1
       color: #333332
       margin-bottom: 16px
@@ -353,7 +322,7 @@ body
       margin: 10px 0
     h2, h1
       letter-spacing: -0.02em
-      font-style: normal
+      font-weight: 300
       font-size: 32px
       line-height: 1.2
       margin: 15px 0
@@ -367,7 +336,7 @@ body
       -moz-hyphens: auto
       hyphens: auto
     a
-      color: #333
+      color: #2784a2
       text-decoration: underline
     img
       max-width: 100%
