@@ -68,7 +68,8 @@
           </div>
           {{/post}}
         </div>
-        {%if site.facebook_appid %}
+
+        <!-- facebook SDK -->
           <div id="fb-root"></div>
           <script>(function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
@@ -77,8 +78,28 @@
               js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId={{site.facebook_appid}}";
               fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));</script>
-          <div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-width="800" data-numposts="100" data-order-by="social"></div>
-        {% endif %}
+
+        <!-- twitter SDK -->
+        <script>window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+                  t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+          return t;
+        }(document, "script", "twitter-wjs"));</script>
+        <!-- tweet button -->
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ page.title }}">Tweet</a>
+        <!-- facebook like and share buttons -->
+        <div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+        <!-- facebook comments -->
+        <div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-width="800" data-numposts="100" data-order-by="social"></div>
       </article>
     </main>
     <div class="bottom-closer">
