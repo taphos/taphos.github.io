@@ -5,9 +5,9 @@ date:   2016-11-09
 image: /assets/article_images/2016-11/gameboy-test.jpg
 ---
 
-Most video games don't enjoy long-term technical support. After game is released it receives a few bugfix patches at best. Developers don't deal with mistakes and bad decisions made, as new projects are often started from scratch. Recently situation began to change, but are developers ready for it?
+Most video games don't enjoy long-term technical support. After game is released it receives a few bugfix patches at best. Developers don't deal with mistakes and bad decisions made, as new projects are often started from scratch. Recently the situation has begun to change, but are developers ready for it?
 
-With increasing popularity of Free-to-Play games rules have changed. F2P games are actually a living services similar to an online banking service. Both require constant updates to meet customer demands, both suffer from similar problems: legacy code, over-engineering, unmanageable code and yes flood of bugs coming with every update. I have seen F2P projects collapse purely due to technical issues introduced in later game updates. Automated testing is one of the techniques widely used to solve these kind of problems. Unfortunately test automation topic is not popular among game developers. Though [some](http://yetanothergameprogrammingblog.blogspot.com.ee/2010/06/aaa-automated-testing.html) top game [developers](http://blog.agilegamedevelopment.com/) rise the issue, they mostly stay unheard.
+With increasing popularity of Free-to-Play games, the rules have changed. F2P games are actually living services similar to an online banking service. Both require constant updates to meet customer demands, both suffer from similar problems: legacy code, over-engineering, unmanageable code and yes flood of bugs coming with every update. I have seen F2P projects collapse purely due to technical issues introduced in later game updates. Automated testing is one of the techniques widely used to solve these kind of problems. Unfortunately the topic of test automation is not popular among game developers. Though [some](http://yetanothergameprogrammingblog.blogspot.com.ee/2010/06/aaa-automated-testing.html) top game [developers](http://blog.agilegamedevelopment.com/) rise the issue, they mostly stay unheard.
 
 When we decided to try test automation in our project, we had 3 main organizational questions to solve before starting the work:
 
@@ -19,7 +19,7 @@ When we decided to try test automation in our project, we had 3 main organizatio
 
 ## Which tools to use?
 
-Unlike, for example, web development gamedev lacks good ready-to-use testing tools. You are totally out of luck when building an inhouse engine. Though [Unity3D](https://bitbucket.org/Unity-Technologies/unitytesttools) and [UE4](https://docs.unrealengine.com/latest/INT/Programming/Automation) recently introduced their own testing systems, I havent seen any projects successfully using those.
+Unlike, for example, web development gamedev lacks good ready-to-use testing tools. You are totally out of luck when building an inhouse engine. Though [Unity3D](https://bitbucket.org/Unity-Technologies/unitytesttools) and [UE4](https://docs.unrealengine.com/latest/INT/Programming/Automation) recently introduced their own testing systems, I haven't seen any projects successfully using those.
 
 The provided [Unity Test Tools](https://bitbucket.org/Unity-Technologies/unitytesttools) didn't fit our needs for several reasons. Mainly it didn't allow us to drive long chains of UI interactions in a way similar to how a user would, so we decided to develop test automation framework ourselves.
 
@@ -31,7 +31,7 @@ Below is a simplified diagram of the game architecture. Player Input and Output 
 
 ![Simplified game architecture](/assets/article_images/2016-11/diagram1.png){:width="300px"}
 
-UI tests isolate the layer of user interface and controller by replacing logical components with [mocks](https://en.wikipedia.org/wiki/Mock_object).
+UI tests isolate the layer of user interface and controller by replacing logical components with [mocks](https://en.wikipedia.org/wiki/Mock_object).
 
 ![User layer testing](/assets/article_images/2016-11/diagram2.png){:width="500px"}
 
