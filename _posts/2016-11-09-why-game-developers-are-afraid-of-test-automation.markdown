@@ -68,7 +68,7 @@ Again we tried to organize test implementation in all sorts of ways. We tried to
 
 We thought that eventually code will be simple enough for QA engineers to write tests by themselves. QA team had no problems reading test code and even writing some simple actions like press a button and validate a screen state, but when it came to mocking and test environment setup it became clear that they require some more solid programming skills.
  
-Then we hired an automation engineer to help QA. It had to be a programmer with good understanding of QA team needs and knowledge about how system works. It came out that without taking part in building the system it was hard to get all the details and issues system had. Without this knowledge automation quality was mediocre. 
+We hired an automation engineer to help QA. It had to be a programmer with good understanding of QA team needs and knowledge about system internal structure. It came out that without taking part in building the system it was hard to get all the details and issues system had. Without this knowledge automation quality was mediocre. 
 
 Finally we decided that it would be better to for automation engineer to join the programmers team. The responsibility for test implementation had to be fully in the developers hands, every one from the team had to write and support automated tests. Fortunately we had everything ready for this, we had a single code base simplifying refactoring and in-house tools which are easy to maintain. 
 
