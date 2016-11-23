@@ -325,8 +325,9 @@ body
       -webkit-hyphens: auto
       -moz-hyphens: auto
       hyphens: auto
-      &:first-child
-        font-size: 25px
+      @media(min-width: 700px)
+        &:first-child
+          font-size: 25px
     a
       color: #2784a2
       text-decoration: underline
