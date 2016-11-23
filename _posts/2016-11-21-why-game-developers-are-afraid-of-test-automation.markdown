@@ -68,7 +68,7 @@ Our DIY test automation framework was ready, but it still had to be integrated i
 
 Again, we tried to organize test implementation in all sorts of ways. We made the test code to be as simple as possible, it had to look like a readable human language (same approach as many web automation frameworks take). We thought that eventually code will be simple enough for QA engineers to write tests by themselves. 
 
-QA team had no problems reading test code and writing some simple actions like pressing buttons and validating a screen states, but when it came to mocking and test environment setup it became clear that they require some more solid programming skills.
+QA team had no problems reading test code and writing some simple actions like pressing buttons and validating screen states, but when it came to mocking and test environment setup it became clear that they require some more solid programming skills.
  
 Then we hired a dedicated automation engineer to help QA. It had to be a programmer with good understanding of testing team needs and knowledge of system internal structure. It came out that without taking part in building the system it was hard to get all the details and issues system had. Without this knowledge automation quality was mediocre. 
 
