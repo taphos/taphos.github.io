@@ -5,6 +5,8 @@ date:   2016-11-21
 image: /assets/article_images/2016-11/gameboy-test.jpg
 ---
 
+In may 2016 United Nation released its annual happiness report
+
 Currently there is no universal agreement among psychologists, politicians and common citizens about what hapiness is. Hapiness considered to be personal. Rarely governments consider citizens happiness as a goal and if it happens, goals is never achieved. 
 
 Modern western society concentrated on achieving personal happiness. What can we do on the society level or even global level to help? Is it possible at all to produce happy people on the industrial scale?
