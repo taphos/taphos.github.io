@@ -5,7 +5,7 @@ date:   2017-01-23
 image: /assets/article_images/2017-01/portrait-hq.jpg
 ---
 
-Have you ever seen experienced developers fail? When all external factors are positive and all team members are competent, why sometimes projects come out of mediocre quality or completely fail? You might think that some essential component must be missing, but what could it be?
+Have you ever seen experienced developers fail? When all external factors are positive and all team members are competent, why sometimes projects come out of mediocre quality or fail completely? You might think that some essential component must be missing, but what could it be?
 
 Software development is a young craft, it has been around for no more than 50 years. There simply haven't been enough time to develop universal techniques which would allow to solve non-obvious problems. On the other hand, other crafts like painting were evolving for many generations. Modern painting techniques are known since times of Leonardo da Vinci. What if similar problems already have proven solutions and we, as developers, just have to grab and adopt them?
 
