@@ -53,7 +53,7 @@ About 40 thousand years ago human brain evolved the desire for art. In the begin
  
 ### Medieval painting
 
-People started to copy each other and improve upon previous creations, art became more complex so rules emerged. At some point rules became too strict. In the medieval times artists could be burned alive for not respecting the rules of art.
+People started to copy each other and improve upon previous creations, art became more complex so rules emerged. At some point rules became too strict.
  
 ![Medieval painting](/assets/article_images/2017-01/paint_medieval.jpg){:width="500px"}
 
