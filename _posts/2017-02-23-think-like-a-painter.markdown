@@ -49,7 +49,7 @@ To answer this question we should dig deeper into the history of visual art evol
 
 About 40 thousand years ago human brain evolved the desire for art. In the beginning there were no rules, basically every individual had to invent his own way of producing art. This was a period of artistic chaos and it worked well as art was simple.
 
-![Cave painting](/assets/article_images/2017-01/paint_cave.jpg){:width="500px"}
+![Cueva de las Manos in the Santa Cruz province in Argentina](/assets/article_images/2017-01/paint_cave.jpg){:width="500px"}
  
 ### Medieval painting
 
@@ -61,13 +61,13 @@ People started to copy each other and improve upon previous creations, art becam
 
 At some point people got tired of strictness and abandoned the medieval art style. New art schools emerged.
 
-![Renaissance](/assets/article_images/2017-01/paint_renaissance.png){:width="500px"}
+![The Vitruvian Man by Leonardo da Vinci (c. 1485)](/assets/article_images/2017-01/paint_renaissance.png){:width="500px"}
  
 ### Avant-garde
 
 Finally people understood that art can exist without any rules and things went back to chaos again, but it was a chaos of totally new quality and complexity. This is the stage where we exist now and no one knows what comes next.
 
-![Avant-garde](/assets/article_images/2017-01/paint_avantgarde.jpg){:width="500px"}
+![Weeping Woman. Paris 1937-Picasso](/assets/article_images/2017-01/paint_avantgarde.jpg){:width="500px"}
 
 We might notice that any kind of art, science and craft went through the same four main stages. So our question is: at which stage computer engineering is right now? 
 
