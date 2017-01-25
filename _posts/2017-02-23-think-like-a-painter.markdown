@@ -39,7 +39,9 @@ Another example is a portrait of Brad Pitt from the movie Troy. The shadows and 
  
 ![Terminator 1991 movie poster](/assets/article_images/2017-01/04.jpg){:width="500px"}
 
-My personal favorite one is mr Arnold Schwarzenegger in the role of heartful Terminator. The details are amazing, separate bits of hair are carefully painted, you can see that author spent an enormous amount of time painting tiny details of face scar and even eyeballs. But as with other posters the whole picture is crap. I hope this explains why most modern software is crap too.
+My personal favorite one is mr Arnold Schwarzenegger in the role of heartful Terminator. The details are amazing, separate bits of hair are carefully painted, you can see that author spent an enormous amount of time painting tiny details of face scar and even eyeballs. But as with other posters the whole picture is crap. 
+
+I hope these illustrations explain the source of some analogical problems we have with modern software.
 
 ## Will developers adopt the holism idea and when?
 
@@ -47,34 +49,36 @@ To answer this question we should dig deeper into the history of visual art evol
 
 ### Cave painting
 
-About 40 thousand years ago human brain evolved the desire for art. In the beginning there were no rules, basically every individual had to invent his own way of producing art. This was a period of artistic chaos and it worked well as art was simple.
+About 40 thousand years ago human brain evolved the desire for art. In the beginning there were no rules, basically every individual had to invent his own way of producing art. This was a period of artistic chaos and it worked well as art was still simple.
 
 ![Cueva de las Manos in the Santa Cruz province in Argentina](/assets/article_images/2017-01/paint_cave.jpg){:width="500px"}
  
 ### Medieval painting
 
-People started to copy each other and improve upon previous creations, art became more complex so rules emerged. At some point rules became too strict.
+People started to copy each other and improve upon previous creations. Art became more complex and rules emerged.
  
 ![Medieval painting](/assets/article_images/2017-01/paint_medieval.jpg){:width="500px"}
 
 ### Renaissance
 
-At some point people got tired of strictness and abandoned the medieval art style. New art schools emerged.
+Artists kept collectively improving rules merging art with science. Realistic visual art appeared.  
 
 ![The Vitruvian Man by Leonardo da Vinci (c. 1485)](/assets/article_images/2017-01/paint_renaissance.png){:width="500px"}
  
 ### Avant-garde
 
-Finally people understood that art can exist without any rules and things went back to chaos again, but it was a chaos of totally new quality and complexity. This is the stage where we exist now and no one knows what comes next.
+Finally, strict rules were abandoned and art went back to chaos again, still it was chaos of totally new quality and complexity. This is the stage where we exist now and no one knows what comes next.
 
 ![Weeping Woman. Paris 1937-Picasso](/assets/article_images/2017-01/paint_avantgarde.jpg){:width="500px"}
 
-We might notice that any kind of art, science and craft went through the same four main stages. So our question is: at which stage computer engineering is right now? 
+Probably any kind of art, science and craft go through the same four main stages. If so, our question is: at which stage computer engineering is at the moment? 
 
-I might propose that computer engineering is somewhere between cave and medieval stages. We still haven't developed universal rules, but some attempts are ongoing. [Agile methodology](https://en.wikipedia.org/wiki/Agile_software_development) is one of these attempts, but it seems to be abandoned by some of its creators, so it is a collective work in progress. In fact the idea similar to holism was proposed by some Agile activists and was named lean or incremental development. Unfortunately it still not widely adopted.
+I might propose that computer engineering is somewhere between *Cave* and *Medieval* stages. Universal rules are yet to be developed, but some attempts are ongoing. [Agile methodology](https://en.wikipedia.org/wiki/Agile_software_development) is one of the attempts. In fact the ideas similar to holism were proposed by Agile activists and were named lean or incremental development, still unfortunately they are not widely adopted. Some developers use rules of Agile development almost like religious doctrines, while others abandon them, including some of the founders. We are currently in the state of active collective work to develop the first set of rules to escape chaos.
 
-We can expect software development to go through renaissance and avant-garde stages in the future, but we can only speculate about what will it be like.
+I also might speculate that software development will go through *Renaissance* and *Avant-garde* stages in the future, but I have no idea about what will it be like.
 
 ## Conclusion
 
-As you might have guessed The idea of holism is universal and could be used anywhere. Use it to develop your career or relationship with your life partner. Use it to rise children or clean the house. In fact I used the same principle to write this article ;)
+I will not explain how exactly this idea should work for software development, I will leave this part for you to think about. If interested, read more about [Agile](https://en.wikipedia.org/wiki/Agile_software_development), [Lean](https://en.wikipedia.org/wiki/Lean_software_development), [Incremental](https://en.wikipedia.org/wiki/Iterative_and_incremental_development) methodologies for the start. Be sure to check out techniques like [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development). I know, these methodologies and techniques are not ideal and don't work for everyone, but it is in your power to improve upon work of others. Use scientific approach and share the experience.
+
+P.S. The idea of holism is universal and could be used for anything. Use it to develop your career or relationship with your life partner, use it to rise children or clean the house. In fact I used the same principle to write this article.
