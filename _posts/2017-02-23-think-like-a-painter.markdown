@@ -27,7 +27,7 @@ Pause the video at any point and the picture will look like a finished portrait.
 
 ## What if artists were working like developers?
  
-Provincial movie theaters in Belarus keep the tradition of handpainting the movie posters as in the days when large poster prints were not available. Some unfortunate posters became internet memes :) I am not an artist nor an art critic, so I will be explaining my point as a dilettante using totally inappropriate terminology.
+Provincial movie theaters in Belarus keep the tradition of handpainting the movie posters as in the days when large poster prints were not available. Some unfortunate posters became internet memes. I am not an artist nor an art critic, so I will be explaining my point as a dilettante using totally inappropriate terminology.
   
 ![Just Married 2003 movie poster](/assets/article_images/2017-01/01.jpg){:width="800px"}
   
