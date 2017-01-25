@@ -21,7 +21,7 @@ While *Programming For Dummies* is all about tools, languages, system requiremen
 
 To better understand the idea checkout the speedpaint made by Wojtek Fus:
  
-<iframe src="https://www.youtube.com/embed/MQON3pyYfhg" frameborder="0" allowfullscreen></iframe>
+<p><iframe src="https://www.youtube.com/embed/MQON3pyYfhg" frameborder="0" allowfullscreen></iframe></p>
 
 Pause the video at any point and the picture will look like a finished portrait. Depending on the chosen art style and required detalization author could stop at any point and say that work is done. This is achieved by the special technique according to which author never stops at any detail for too long. This way the picture evolves as a whole. Compare it to the typical software project where each part is made separately and often combined with other parts one week before the final release. Imagine, if software developers could use the same technique we would never have deadline problems again!
 
