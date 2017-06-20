@@ -1,21 +1,22 @@
 ---
 layout: post
-title:  "We already reached the the level of AI ready for singularity, all whats left is a spark."
+title:  "Artificial Intelligence reached level ready for singularity, all whats left is a spark."
 date:   2017-06-21
 image: /assets/article_images/2017-01/portrait-hq.jpg
 ---
 
-We all know that modern AI with Deep Learning algorithms can make good quality decisions, sometimes better quality than humans.
-Now imagine scenario when some political leader tries to use modern AI to be able to make good quality political decisions?
+It is widely believed that AI requires to obtain consciousness to go out of human control. This could be a misconception. 
+We know that modern AI with Deep Learning algorithms can make good quality decisions without really understanding the point of the questions, sometimes better quality than humans.
+Now imagine scenario when some political leader tries to use modern AI to make good quality political decisions?
 
-If it works this leader would have an advantage over competitors which would be forced to use the same technique to keep up.
-The one that makes good decisions faster, optimizing execution time more efficiently, will have an advantage.
-In the beginning politicians will be validating each AI decision manually without giving it direct control.
+The one that makes good decisions faster and more efficiently, will have an advantage.
+If AI is suitable for this task, our pioneer would gain an advantage over competitors, forcing them to use the same technique to keep up.
+In the beginning politicians will not trust AI fully, they will be validating each decision manually without giving it direct control.
 At some point the speed of decision making might go beyond human brain limits.
-At this point leaders would have to decide to keep validating decisions and probably loose the competition,
-or give AI direct control to keep up with opponents. If at least anyone makes a second choice, decisions will go out of control.
-I know that current leaders are smart enough not to start the nuclear war having technology ready for atleast 70 years, I might suggest that capabilities of AI could be not so obvious for them. 
-Whats then? I dunno, maybe competing AIs will destroy each other and the world as a bonus.
+At this point leaders would have to decide whether to keep validating decisions and probably loose the competition,
+or to give AI direct control to overcome opponents. If at least anyone makes a second choice, decisions will go out of human control.
+I know that our leaders have been smart enough not to start the nuclear war having access to technology for atleast 70 years, I might suggest that capabilities of AI could be not so obvious for them. 
+Whats if bad choice will be done? I dunno, maybe competing AIs will destroy each other and the world as a bonus.
 Or maybe AI will learn that the most optimal way to win is to cooperate, so it may be the end of all wars. At the same time AIs could decide to wipe out humanity in cooperative mode too.
 
 ## How really possible is this scenario?
