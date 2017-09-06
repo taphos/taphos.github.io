@@ -6,7 +6,7 @@ image: /assets/article_images/2017-01/portrait-hq.jpg
 ---
 
 It is widely believed that AI requires to obtain consciousness to go out of human control. This could be a misconception. 
-We know that modern AI with Deep Learning algorithms can make good quality decisions without really understanding the point of the questions, sometimes better quality than humans.
+We know that modern AI with Deep Learning algorithms are able to make good quality decisions without really understanding the point of the problem, sometimes better quality than humans.
 Now imagine scenario when some political leader tries to use modern AI to make good quality political decisions?
 
 The one that makes good decisions faster and more efficiently, will have an advantage.
