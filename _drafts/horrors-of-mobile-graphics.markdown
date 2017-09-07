@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Horrors of mobile graphics"
-date:   2017-09-01
-image: /assets/article_images/2017-01/portrait-hq.jpg
+date:   2017-09-07
+image: /assets/article_images/2017-09/fightclub.jpg
 ---
 
 Recently [lead mobile](https://venturebeat.com/2016/02/16/mobile-devices-will-be-more-powerful-than-playstation-4-xbox-one-in-2017-arm-forecasts) [hardware vendors](http://www.eurogamer.net/articles/digitalfoundry-2014-nvidia-and-unreal-engine-4-reveal-the-future-of-mobile-graphics) started to claim that mobile graphics reached the level of modern gaming consoles. Lets find out whether claims are true and if so, why don't we see much mobile games on the market which could prove the point.
