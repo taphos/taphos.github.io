@@ -7,13 +7,13 @@ image: /assets/article_images/2017-09/fightclub.jpg
 
 Recently [lead mobile](https://venturebeat.com/2016/02/16/mobile-devices-will-be-more-powerful-than-playstation-4-xbox-one-in-2017-arm-forecasts) [hardware vendors](http://www.eurogamer.net/articles/digitalfoundry-2014-nvidia-and-unreal-engine-4-reveal-the-future-of-mobile-graphics) started to claim that mobile graphics reached the level of modern gaming consoles. Lets find out whether claims are true and if so, why don't we see much mobile games on the market which could prove the point.
 
-Vendors are basing their claims on the number of floating point operations that can be performed by a graphical processing unit in a single second. In the table below you can find specs of different devices both mobile and consoles.
+Vendors base their claims on a single spec parameter: the number of floating point operations that can be performed by a graphical processing unit in a single second. Lets compare the specs of different devices both mobile and consoles.
 
 |-----------------------|-----------------|
 | PS4                   | 1843 gflops     |
 | Xbox One              | 1310 gflops     |
-| **iPhone 7**          | **729 gflops**  |
-| **Samsung Galaxy S8** | **519 gflops**  |
+| **Samsung Galaxy S8** | **567 gflops**  |
+| **iPhone X**          | **350 gflops**  |
 | Xbox 360              | 240 gflops      |
 | PS3                   | 192 gflops      |
 | **iPhone 6S**         | **120 gflops**  |
@@ -41,7 +41,7 @@ Code which is executed by GPU is compiled by the driver at the application runti
 
 Historically CPU memory was separated from GPU memory as they have different performance requirements. This is still true for PC and consoles. When preparing a draw call CPU must copy all the required data (textures, meshes etc.) to the graphic memory. On the other hand separate memory chips would be an overkill for mobile devices as it would require more physical space, so both processors usually operate the same memory on mobiles. Despite this, interfaces force CPU to make unnecessary data copies anyway, which creates an additional processing time overhead.
 
-### No Blending control
+### No programmable Blending
 
 Old GPUs had framebuffer color blending implemented on the hardware side, so blending variety was limited by a set of fixed functions. Currently many graphic chips use programmable blending which theoretically allows to use any kind of functions, but as you might have guessed, it is inaccessible. Some vendors, like PowerVR, expose programmable blending via [special extension](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_shader_framebuffer_fetch.txt) but as it is not widely spread and remains mostly unused.
 
@@ -74,7 +74,9 @@ The irony is that in non-capitalistic market vendors would use common sense keep
     
 ### How to deal with overheating?
 
-With last project I have been working on we started by measuring the length of the game sessions. It came out that average game session was about 15 minutes long. We decided that keeping 30 frames per second for 15 minutes on all devices would be good enough for most users. After some trial and error we stopped on using about 60% of high-end device resources with best graphics quality settings. This solved our problem, but limited the image quality for the consumer. If your application requires longer sessions, you have no simple solution but to make image quality even lower.    
+With last project I have been working on we started by measuring the length of the game sessions. It came out that average game session was about 15 minutes long. We decided that keeping 30 frames per second for 15 minutes on all devices would be good enough for most users. After some trial and error we stopped on using about 60% of high-end device resources with best graphics quality settings. This solved our problem, but limited the image quality for the consumer. If your application requires longer sessions, you have no simple solution but to make image quality even lower.
+
+TODO: iPhone 7,8,X same performance. X - less power
     
 ## Horror №3: Tools
 
