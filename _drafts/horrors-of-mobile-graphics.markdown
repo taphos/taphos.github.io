@@ -55,9 +55,9 @@ Comparing with PC and consoles mobile GPU and CPU are usually packed into a sing
 
 ![Nvidia GTX 1080 and Apple A7](/assets/article_images/2017-09/gpu-reality.png)
 
-While device physical parts become tinier and packed together along with consuming more power and radiating much heat, physical limit for natural cooling is getting reached. In fact it takes about 10 minutes working full power in room temperature environment for modern mobile device to overheat. Fortunatelly devices are equipped with burning protection mechanism. When certain temperature is reached device starts throttling processing unit frequency to cool down. While throttling saves device from burning, it is devastating for graphical applications and user experience.
+While device physical parts become tinier and packed together along with consuming more power and radiating much heat, physical limit for natural cooling is getting reached. In fact it takes about 10 minutes working full power in room temperature environment for modern mobile device to overheat. Fortunately devices are equipped with burning protection mechanism. When certain temperature is reached device starts throttling processing unit frequency to cool down. While throttling saves device from burning, it is devastating for graphical applications and user experience.
 
-I made a couple of performance tests with devices of Samsung Galaxy series. Both device CPU and GPU were loaded for nearly 100% for duration of 10 minutes. After that I measured rendering performance of GPU vertex and pixel programs.   
+A small benchmark test performed with devices of Samsung Galaxy series demonstrates the point. Both device CPU and GPU were loaded for nearly 100% for duration of 10 minutes. Rendering performance of GPU vertex and pixel programs were measured.   
 
 | Model      | Vertices (20ms) | Pixels (20ms) |
 |:-----------|----------------:|--------------:|
@@ -68,15 +68,15 @@ I made a couple of performance tests with devices of Samsung Galaxy series. Both
 
 S4 and S5 didn't overheat at all, keeping the performance on the same level during whole test. S5 could render twice as much vertices and pixels as its chip has double the power. S6 and S7 could not reach the rendering speed of older devices as they had anti-burning mechanisms activated quickly. This means that Galaxy S5 was the last balanced device and all succeeding ones will not get better performance, but just overheat faster. Same is happening with all high-end devices produced in 2016 and later.
 
-The question is, whether vendors aware of this problem? I think yes, for sure. Why do they keep installing more powerfull processors? I think the problem is marketing, consumers tend to trust phone specifications when choosing devices. They don't realize that specs are just numbers and such processing power can not be achieved in reality.
+The question is, whether vendors aware of this problem? I think yes, for sure. Why do they keep installing more powerful processors? I think the problem is marketing, consumers tend to trust phone specifications when choosing devices. They don't realize that specs are just numbers and such processing power can not be achieved in reality.
    
 The irony is that in non-capitalistic market vendors would use common sense keeping device heat in balance helping app developers to use full potential of the hardware. Are there any Cuban mobile phones yet? :)
     
 ### How to deal with overheating?
 
-With last project I have been working on we started by measuring the length of the game sessions. It came out that average game session was about 15 minutes long. We decided that keeping 30 frames per second for 15 minutes on all devices would be good enough for most users. After some trial and error we stopped on using about 60% of high-end device resources with best graphics quality settings. This solved our problem, but limited the image quality for the consumer. If your application requires longer sessions, you have no simple solution but to make image quality even lower.
+The solution should come from the hardware vendors: spec wars should be stopped. But, as problem does not have much media resonance, vendors are not motivated. Though some movement is noticeable in the Apple world. Latest iPhone models (iPhone 7, 8 and X) did not increase GPU performance staying roughly on 350 gflops, while iPhone X A11 processor with custom GPU is more power-efficient. Media mostly reports this as a step towards longer battery life but the main reason should be the overheating problem. 
 
-TODO: iPhone 7,8,X same performance. X - less power
+While there is no complete solution provided by device producers, the responsibility lies on the app developers. The amount of device resource utilisation should be limited to avoid overheating. We approach the problem by measuring the length of the game sessions. For example, average game session for our last project was about 15 minutes long. We decided that keeping 30 frames per second for 15 minutes on all devices should be good enough for most users. After some trial and error we stopped on using about 60% of high-end device resources with best graphics quality settings. This solved our problem, but limited the image quality for the consumer. If your application requires longer sessions, you have no simple solution but to make image quality even lower.
     
 ## Horror №3: Tools
 
