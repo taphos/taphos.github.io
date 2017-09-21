@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Horrors of mobile graphics"
-date:   2017-09-07
+date:   2017-09-21
 image: /assets/article_images/2017-09/fightclub.jpg
 ---
 
@@ -74,7 +74,7 @@ The irony is that in non-capitalistic market vendors would use common sense keep
     
 ### How to deal with overheating?
 
-The solution should come from the hardware vendors: spec wars should be stopped. But, as problem does not have much media resonance, vendors are not motivated. Though some movement is noticeable in the Apple world. Latest iPhone models (iPhone 7, 8 and X) did not increase GPU performance staying roughly on 350 gflops, while iPhone X A11 processor with custom GPU is more power-efficient. Media mostly reports this as a step towards longer battery life but the main reason should be the overheating problem. 
+The solution should come from the hardware vendors: spec wars should be stopped. Vendors should look more towards cooling and power efficient technologies instead of increasing the processing speed with each device generation. Unfortunately problem does not have much media resonance, so vendors are not motivated. Though some movement is noticeable in the Apple world. Latest iPhone models (iPhone 7, 8 and X) did not increase GPU performance staying roughly on 350 gflops, while iPhone X A11 processor with custom GPU is more power-efficient. Media mostly reports this as a step towards longer battery life but the main reason should be the overheating problem. 
 
 While there is no complete solution provided by device producers, the responsibility lies on the app developers. The amount of device resource utilisation should be limited to avoid overheating. We approach the problem by measuring the length of the game sessions. For example, average game session for our last project was about 15 minutes long. We decided that keeping 30 frames per second for 15 minutes on all devices should be good enough for most users. After some trial and error we stopped on using about 60% of high-end device resources with best graphics quality settings. This solved our problem, but limited the image quality for the consumer. If your application requires longer sessions, you have no simple solution but to make image quality even lower.
     
